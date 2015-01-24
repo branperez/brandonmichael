@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="drawing2.png">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3051">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3053" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1"
+         offset="1"
+         id="stop3055" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3051"
+       id="linearGradient3057"
+       x1="100"
+       y1="275.21933"
+       x2="622.85712"
+       y2="263.79074"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99026053,0,0,0.99026053,3.6592577,5.648941)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3051"
+       id="linearGradient3169"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99026053,0,0,0.99026053,3.6592577,5.648941)"
+       x1="100"
+       y1="275.21933"
+       x2="622.85712"
+       y2="263.79074" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3249">
+      <path
+         sodipodi:type="arc"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff"
+         id="path3251"
+         sodipodi:cx="234.28572"
+         sodipodi:cy="298.07648"
+         sodipodi:rx="357.14285"
+         sodipodi:ry="357.14285"
+         d="m 591.42857,298.07648 a 357.14285,357.14285 0 1 1 -714.2857,0 357.14285,357.14285 0 1 1 714.2857,0 z"
+         transform="matrix(1.0559217,0,0,1.0559217,129.75548,60.473908)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="748.57143"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3632"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="880"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3085"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3087"><rect
+           id="rect3089"
+           width="140"
+           height="48.57143"
+           x="311.42856"
+           y="280.93362" /></flowRegion><flowPara
+         id="flowPara3091">ORDERO</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3119"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3121"><rect
+           id="rect3123"
+           width="11.428572"
+           height="48.57143"
+           x="377.14285"
+           y="712.36218" /></flowRegion><flowPara
+         id="flowPara3125"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3287"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3289"><rect
+           id="rect3291"
+           width="614.28571"
+           height="317.14285"
+           x="60"
+           y="366.64789" /></flowRegion><flowPara
+         id="flowPara3293"></flowPara></flowRoot>    <g
+       id="g3632">
+      <rect
+         y="-4.7806745"
+         x="2.8571427"
+         height="1054.2858"
+         width="754.28571"
+         id="rect3253"
+         style="fill:#ff5555;fill-opacity:1;stroke:#ffffff" />
+      <g
+         id="g3543">
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3255"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(-20,85.714286)"><flowRegion
+             id="flowRegion3257"><rect
+               id="rect3259"
+               width="634.28577"
+               height="614.28571"
+               x="42.857143"
+               y="78.076469" /></flowRegion><flowPara
+             id="flowPara3261"
+             style="fill:#ff0000">&lt;body <flowSpan
+   style="fill:#808080"
+   id="flowSpan3297">class=</flowSpan><flowSpan
+   style="fill:#008000"
+   id="flowSpan3295">&quot;bacon&quot;</flowSpan>&gt;</flowPara><flowPara
+             id="flowPara3265"
+             style="fill:#ff0000">  &lt;ul&gt;</flowPara><flowPara
+             id="flowPara3269"><flowSpan
+               style="fill:#ff0000"
+               id="flowSpan3279">     &lt;li <flowSpan
+   style="fill:#808080"
+   id="flowSpan3471">class=</flowSpan><flowSpan
+   style="fill:#008000"
+   id="flowSpan3469">&quot;toggle&quot;</flowSpan>&gt;&lt;h1&gt;</flowSpan><flowSpan
+               style="fill:#008000"
+               id="flowSpan3285">Your website</flowSpan><flowSpan
+               style="fill:#ff0000"
+               id="flowSpan3281">&lt;/h1&gt;&lt;/li&gt;</flowSpan></flowPara><flowPara
+             id="flowPara3271"
+             style="fill:#ff0000">  &lt;/ul&gt;</flowPara><flowPara
+             id="flowPara3273"
+             style="fill:#ff0000">&lt;/body&gt;   </flowPara></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3299"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(-28.571429,-74.285714)"><flowRegion
+             id="flowRegion3301"><rect
+               id="rect3303"
+               width="640"
+               height="562.85712"
+               x="62.857143"
+               y="346.64789" /></flowRegion><flowPara
+             id="flowPara3305"><flowSpan
+               style="fill:#d4aa00"
+               id="flowSpan3327">.bacon</flowSpan><flowSpan
+               style="fill:#999999"
+               id="flowSpan3331"> {background-image:</flowSpan><flowSpan
+               style="fill:#008080"
+               id="flowSpan3389">             url(../img/someimage.png);</flowSpan></flowPara><flowPara
+             id="flowPara3309"><flowSpan
+               style="fill:#999999"
+               id="flowSpan3333">              display:</flowSpan><flowSpan
+               style="fill:#008080"
+               id="flowSpan3393"> block;</flowSpan></flowPara><flowPara
+             id="flowPara3313"><flowSpan
+               style="fill:#999999"
+               id="flowSpan3335">              background-possition:</flowSpan><flowSpan
+               style="fill:#008080"
+               id="flowSpan3395"> top center;</flowSpan></flowPara><flowPara
+             id="flowPara3315"><flowSpan
+               style="fill:#999999"
+               id="flowSpan3345">              height:</flowSpan><flowSpan
+               style="fill:#008080"
+               id="flowSpan3397"> 100%; </flowSpan></flowPara><flowPara
+             id="flowPara3319"><flowSpan
+               style="fill:#999999"
+               id="flowSpan3347">              background-repeat:</flowSpan><flowSpan
+               style="fill:#008080"
+               id="flowSpan3399"> no-repeat;    </flowSpan></flowPara><flowPara
+             id="flowPara3321"><flowSpan
+               style="fill:#999999"
+               id="flowSpan3349">              background-size:</flowSpan><flowSpan
+               style="fill:#008080"
+               id="flowSpan3401"> cover;</flowSpan></flowPara><flowPara
+             id="flowPara3323"><flowSpan
+               style="fill:#999999"
+               id="flowSpan3351">              background-attachment:</flowSpan><flowSpan
+               style="fill:#008080"
+               id="flowSpan3403"> fixed;</flowSpan><flowSpan
+               style="fill:#999999"
+               id="flowSpan3405"> }</flowSpan></flowPara></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3435"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(-880,94.285713)"><flowRegion
+             id="flowRegion3437"><rect
+               id="rect3439"
+               width="717.14288"
+               height="1014.2857"
+               x="1028.5714"
+               y="20.933611" /></flowRegion><flowPara
+             id="flowPara3441">(<flowSpan
+   style="fill:#aad400"
+   id="flowSpan3495">function</flowSpan> (<flowSpan
+   style="fill:#c87137"
+   id="flowSpan3497">yourcode</flowSpan>) {</flowPara><flowPara
+             id="flowPara3443" /><flowPara
+             id="flowPara3445"><flowSpan
+   style="fill:#c87137"
+   id="flowSpan3499">      yourcode</flowSpan>(<flowSpan
+   style="fill:#c87137"
+   id="flowSpan3501">window.jQuery, window, document</flowSpan>);</flowPara><flowPara
+             id="flowPara3447" /><flowPara
+             id="flowPara3449">      }(<flowSpan
+   style="fill:#aad400"
+   id="flowSpan3503">function</flowSpan>(<flowSpan
+   style="fill:#ffcc00"
+   id="flowSpan3485">$</flowSpan><flowSpan
+   style="fill:#c87137"
+   id="flowSpan3541">, window, document</flowSpan>) {</flowPara><flowPara
+             id="flowPara3451" /><flowPara
+             id="flowPara3453"
+             style="fill:#c8beb7"> //** make function none global**//</flowPara><flowPara
+             id="flowPara3455"><flowSpan
+   style="fill:#ffcc00"
+   id="flowSpan3487">$</flowSpan>(<flowSpan
+   style="fill:#aad400"
+   id="flowSpan3507">function</flowSpan>(){</flowPara><flowPara
+             id="flowPara3457"><flowSpan
+   style="fill:#ffcc00"
+   id="flowSpan3489"> $</flowSpan>(<flowSpan
+   style="fill:#66ff00"
+   id="flowSpan3509">&quot;li&quot;</flowSpan>)<flowSpan
+   style="fill:#c87137"
+   id="flowSpan3515">.addClass</flowSpan>(<flowSpan
+   style="fill:#66ff00"
+   id="flowSpan3511">&quot;conceal&quot;</flowSpan>); <flowSpan
+   style="fill:#ffcc00"
+   id="flowSpan3491">$</flowSpan>(<flowSpan
+   style="fill:#66ff00"
+   id="flowSpan3513">&quot;.toggle&quot;</flowSpan>)<flowSpan
+   style="fill:#c87137"
+   id="flowSpan3517">.click</flowSpan>(<flowSpan
+   style="fill:#aad400"
+   id="flowSpan3519">function</flowSpan>(){                   <flowSpan
+   style="fill:#ac9d93"
+   id="flowSpan3521"> //*when menu button is press activate accordion*// </flowSpan><flowSpan
+   style="fill:#ffcc00"
+   id="flowSpan3493"> $</flowSpan>(<flowSpan
+   style="fill:#66ff00"
+   id="flowSpan3523">&quot;ul&quot;</flowSpan>)<flowSpan
+   style="fill:#c87137"
+   id="flowSpan3525">.slideToggle</flowSpan>(); })</flowPara><flowPara
+             id="flowPara3473">         })</flowPara><flowPara
+             id="flowPara3483">}));</flowPara><flowPara
+             id="flowPara3459" /><flowPara
+             id="flowPara3461" /><flowPara
+             id="flowPara3463" /><flowPara
+             id="flowPara3465" /><flowPara
+             id="flowPara3467" /></flowRoot>      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1185.7144"
+       y="746.64789"
+       id="text3475"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3479"
+         x="1185.7144"
+         y="746.64789" /></text>
+  </g>
+</svg>

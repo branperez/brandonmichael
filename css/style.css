@@ -1,0 +1,772 @@
+/*
+ **********************
+ *icons
+ **********************
+*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus-alt, .icon-minus-alt {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-plus-alt:before {
+	content: "\e004";
+}
+.icon-minus-alt:before {
+	content: "\e005";
+}
+
+/*
+ **********************
+ *page preps
+ **********************
+*/
+
+/* soft reset */
+* {	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/* floats */
+.fr {	float: right;
+		margin-right: .5em; 
+}
+
+.fl {	float: left;
+		margin-left: .5em;
+}
+
+/** cover background fix **/
+html, body {	zoom: 101%;
+}
+/** fs = full screen **/
+html, body, .fs {	height:100%;
+} 
+
+
+/***clearfixes***/
+
+/*For modern browsers */
+.cf:before,
+.cf:after {	
+	content:"";
+	display:table;
+}
+.cf:after {	
+	clear:both;
+}
+/* For IE 6/7 (triggers hasLayout) */
+.cf {	
+	*zoom:1;
+}
+/* end floats */
+
+/*
+ **********************
+ *General styling
+ **********************
+*/
+
+.conceal {	display: none;
+}
+
+body {/* change from noto sans */
+		font-family: convergence, helvetica, sans-serif;
+		min-width: 20em;
+}
+
+/**		wrappers	**/
+/***********************						background for contact page 							*************************/
+.contact {	background-color: #000;
+			background-image: url(../img/mabstract.jpg);
+}
+
+.contact {	height: 100%;
+		    position: relative;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+}
+
+
+.about {	background-image: url(../img/drawing.png);
+			position: relative;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+}
+
+.home {	background-color: #3AA6D0;
+}
+
+/** 	end wrappers	 **/
+
+.content {	text-align: center;
+			margin: 0 auto;
+			width: 100%;
+}
+
+.center {	text-align: center;
+			margin: 0 auto;
+			width: 100%;
+}
+
+.spacerlg {	background: transparent;
+			width: 100%;
+			height: 60%;
+}
+
+.spacer {	background: transparent;
+			height: 35%;
+			width: 100%;
+}
+
+.spacer2 {	background: transparent;
+			height: 0em;
+			width: 100%;
+}
+
+
+
+
+/** 	Headers 	**/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+		letter-spacing: .1em;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-weight: bold;
+}
+
+h1, .h1 {	color:white;
+			font-size: 2.1em;
+}
+/**		remember to load julius sans on use	**/
+h2, .h2 {	font-size: 2em;
+			color: white;
+			font-family: 'Julius Sans One', sans-serif;
+}
+
+h3, .h3, .steven li, .brandon li {	color: white;
+			letter-spacing: .1em;
+			font-size: 1.2em;
+			line-height: 2em;		
+}
+
+h4, .h4 {	color: black;
+			letter-spacing: .1em;
+			font-size: 1.65em;
+			line-height: 1.5em;
+			font-family: 'Julius Sans One', sans-serif;
+}
+
+h5, .h5 {	color: white;
+			letter-spacing: .1em;
+			font-size: 1em;
+			line-height: 1.3em;
+}
+
+.black {	color: black;
+}
+
+.small {	font-size: 1.1em;
+}
+
+.shadow {
+			-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+			box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.parsley-error {	background-color:#FFDFDF;
+			border-top: 3px solid #C4667E;
+}
+
+.parsley-error:focus {	background-color:#FFDFDF;
+			border-top: 3px solid #C4667E;
+}
+
+li.required, .custom-error-message {	color: red;
+}
+
+/*
+ **********************
+ *Header
+ **********************
+*/
+
+header {	width: 100%;
+			height: 4em;
+			position: fixed;
+			min-width: 17.5em;
+			z-index: 200;
+}
+
+.nav {	margin: 0 auto;
+		background: #000;
+}
+
+.toggle:hover {	cursor: pointer;
+}
+
+.navmenu li {	border-bottom: solid 1px #000;
+}
+
+.navmenu {	background: #000;
+}
+
+.menubtn {	display: inline-block;
+			right: 0;
+			text-align: right;
+			padding: .5em;
+			font-size: 1.2em;
+			vertical-align: center;
+}
+
+.banner {	display: block;
+			background: #000;
+			-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+			box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.logo {	max-width: 8em;
+		/** max-height: 5em; max height no longer needed after ilocke to bm switch */
+		padding: .8em;
+		display: inline-block;
+		text-align: left;
+		vertical-align: center;
+		margin-top: 5px; /* margin top needed after switch to brandonmichael */
+}
+
+/*
+ **********************
+ *Main Content
+ **********************
+*/
+
+.mainpng {	padding-top: 50%;
+			max-width: 20em;
+			max-height: 20em;
+			border: 0;
+}
+.hook {	padding-top: .1em;
+		font-family: georgia;
+		font-size: 1.3em;
+		line-height: 1.2em;
+		margin-bottom: 2em;
+}
+
+.figcaption {	font-family: convergence;
+				padding: 4em 0;
+}
+
+.figure {	max-width: 20em;		
+}
+
+.contentitle {	margin-bottom: .65em;
+				letter-spacing: -1px;
+				text-transform: none;
+}
+
+.aboutlnk, .contactlnk {	
+			line-height: 1.5em;
+			padding-bottom: 2px;
+			text-decoration: none;
+}
+
+.aboutlnk:hover, .contactlnk:hover {	border-width: 5px;
+					padding-bottom: 0;
+}
+
+.aboutlnk {	border-bottom: 2px solid black;
+}
+
+.contactlnk {	border-bottom: 2px solid #666;
+				margin: 0 auto;
+}
+
+
+/*
+ **********************
+ *Contact page css
+ **********************
+*/
+
+
+/** 2em on right padding to make up for browser input offset **/
+.form {	width: 90%;
+		padding: 1em 2em 1em 1em;
+		background-color: rgba(0, 0, 0, .3);
+		margin: 0 auto;
+		margin-top: 2em;
+}
+
+.req, .submit {	margin: 0 auto;
+}
+
+.req {
+    display: block;
+    width: 100%;
+	margin-bottom: 1.25em;
+	padding: 0.5em 0 0.5em .5em;
+	border: 0;
+	border-top: 3px solid #9C9C9C;
+}
+	
+.formtitle {	text-align: center;
+				display: block;
+				padding-bottom: .5em;
+}
+
+.formhead {	padding-bottom: .2em;
+}
+
+.req:focus {	
+			outline: none;
+			background-color: #F7F7F7;
+			border-top: 3px solid #A3032B;
+}
+
+.submit {	margin-top: .5em;
+			border: 3px solid white;
+			background-color: #3498db;
+			color: white;
+			padding: 0.75em 0.2em 0.75em 0em;
+			width: 102%;
+			margin: 0 auto;
+}
+
+.submit:focus {	border: 3px solid #A3032B;
+				outline: none;
+}
+
+.email {	width: 100%;
+}
+
+.contactlogo {	width: 20em;
+				padding: 2em;
+}
+
+.info {	display: block;
+		text-transform: none;
+}
+
+.infobtn {	display: block;
+		width: 12.5em;
+		background-color: rgba(0, 0, 0, 0.3);
+		padding: 0.75em 0;
+		border: 3px solid white;
+		margin-top: 0.5em;
+}
+
+/*
+ **********************
+ *About
+ **********************
+*/
+.grey {	color: #666;
+}
+
+.lgrey {	color: #969696;
+}
+
+.about-wrapper {	background-color: #F5F5F5;
+					padding-bottom: 5%;
+					overflow: hidden;
+}
+ 
+.about-spacer {	height: 60%;
+}
+
+.about-me {	padding: 2em 0 3em;
+			background-color: #F5F5F5;
+}
+
+.about-me div {	text-align: center;
+}
+
+.about-header {	padding: 2em 0;
+				background-color: #3AA6D0;
+}
+
+.about-header h1 {	margin: 0 auto;
+}
+
+.services {	background-color: #fff;
+			width: 100%;
+}
+
+.services article { display: block;	
+					max-width: 20em;
+					margin: 0 auto;
+					padding: 2em 0;
+}
+
+.services article p, .about-me p {	
+						font-family: ariel, sans-serif;
+						line-height: 1.4em;
+						font-size: 1.05em;
+						text-align: left;
+}
+
+.services article p {	margin: 2em 1em;
+}
+
+.about-me p {	
+				margin-bottom: 2.5em;
+}
+
+.about-me article {	max-width: 30em;
+					margin: 5% auto;
+					padding: 2em .5em .1em .5em;
+					margin-bottom: 0;
+}
+
+.about-me h1 {	display: inline;
+				margin: 1em;
+				letter-spacing: -1px;
+				font-family: ariel, helvetica, sans-serif;
+				font-weight: normal;
+				font-size: 1.4em;
+				
+}
+
+.about-img {	width: 80%;
+				height: auto;
+}
+
+
+
+/*
+ **********************
+ *footer -- I really need to get around to this. 
+ **********************
+*/
+
+
+
+/*
+ **********************
+ *form error and sent
+ **********************
+*/
+
+.post {	width: 40em;
+}
+
+.postmain {	margin-top: 3em;
+			border: 1px solid grey;
+			background-color: white;
+}
+
+.postcenter {	margin: 0 auto;
+				margin-left: 3%;
+				margin-top: .5em;
+}
+
+.postp {	height: 40em;
+			max-height: 25em;
+			max-width: 25em;
+			margin-top: 30%;
+}
+
+.postlnk {	margin-top: 7em;
+}
+
+.post h5 {	margin-bottom: 1em;
+}
+
+
+.errorhead { background-color: #EEB2A9;
+}
+
+.senthead {	background-color: #B0EDA1;
+}
+
+.sent, .error {	background-color: #E8E8E8;
+}
+
+/***************** Larger phone ************************/
+@media only screen and (min-width: 15em) {
+	.logo {
+		max-width: 10em;
+		padding: .6em;
+	}
+}
+
+
+/****************** Tablet size media*******************/
+@media only screen and (min-width: 40em) {	
+	
+	
+	/*
+	 **********************
+	 *Nav * 40+ em
+	 **********************
+	*/
+	
+	.logo {
+		max-width: 12em;
+		padding: .5em;
+	}
+	/*
+	 **********************
+	 *home * 40+ em
+	 **********************
+	*/
+	
+	.figure {	max-width: 90%;
+				max-height: 150%;
+				padding-top: 15em;
+				height: 100%;
+				width: 50%
+	}
+	
+	.mainpng {	max-width: 31em;
+				padding-top: 0;
+				height: auto; 
+				padding-bottom: 10%;
+	}
+	
+	/*
+	 **********************
+	 *Contact 40+ em
+	 **********************
+	*/
+	
+	.req, .form {	width: 85%;
+	}
+	
+	.req {	padding: 0.5em;
+	}
+	
+	.submit {	margin: 0 auto;
+				width: 85%;
+				margin-left: 7.5%;
+	}
+	
+	.spacer2 {	background: transparent;
+			height: 2em;
+			width: 100%;
+	}
+
+	/*
+	 **********************
+	 *About 40em
+	 **********************
+	*/
+	.about-me article {	border-left: 5px solid #3AA6D0;
+						padding: 2em 4em .1em 4em;
+	}
+
+	.services article { width: 70%;
+	}
+
+	/******		end 40 em tablet query	******/	
+}
+
+
+/*****************desktop media****************/
+@media only screen and (min-width: 63em) {	
+	 /*
+	  **********************
+	  *Navigation bar
+	  **********************
+	 */
+	
+	.navmenu li a:first-child {
+		margin-right: 10px;
+	}
+	.navmenu li a{	float:right;
+					display: inline;
+					padding: 4px .5em 2px;
+					margin-right: 1em;
+					border-bottom: none;
+	}
+	
+	.navmenu li a:hover {	background-color: #472537;
+						-webkit-box-shadow: inset 0 -1px 2px rgba(0,0,0,0.5);
+						box-shadow: inset 0 -1px 2px rgba(0,0,0,0.5);
+	}
+	
+	.navmenu {	background-color: #292929;
+				-webkit-box-shadow: inset 0 -1px 2px rgba(0,0,0,0.5);
+				box-shadow: inset 0 -1px 2px rgba(0,0,0,0.5);
+	}
+	/*
+	 **********************
+	 *home page 63 em
+	 **********************
+	*/
+	
+	.content {	text-align: left;
+	}
+	
+	.figure {	width: 80%;
+				height: auto;
+				padding-top: 5em;
+	}
+	
+	.mainpng {	float: left;
+				max-width: 50%;
+				padding: 0;
+				width: 40%;
+				max-height: none;
+				padding-top: 1em;
+	}
+	
+	.figcaption {	padding: 13em 0;
+					float: right;
+					width: 40%;
+					max-width: 22em;
+					
+	}
+	
+	.contentitle {	font-size: 2em;
+					line-height: 1.33em;
+	}
+	
+	.hook {	 font-size: 1.3em;
+			line-height: 1.5em;
+	}
+	
+	
+	/*
+	 **********************
+	 *About 63em
+	 **********************
+	*/
+	
+	.services article { display: inline-block;	
+					width: 26%;
+					margin: 4em 3% ;
+					vertical-align: top; 
+					text-align: center;
+					max-width: 20em;
+	}
+
+	.about-me div {	text-align: left;
+	}
+
+	
+	/*
+	 **********************
+	 *contact 63em
+	 **********************
+	*/
+	
+	.contact {	background-image: url(../img/abstract.jpg);
+	}
+
+	
+	.form {	width: 65%;
+			max-width: 40em;
+	}
+	
+	.req {	padding: 0.5em;
+	}
+	
+	.submit {	margin: 0 auto;
+				width: 85%;
+				margin-left: 7.5%;
+	}
+	
+	.req {	width: 85%;
+	}
+	
+	.spacer2 {	background: transparent;
+			height: 5em;
+			width: 100%;
+}
+
+/*************end em desktop query*************/
+}
+
+/*************stupid picture specific query***********/
+@media only screen and (min-width: 73em) {
+	.figcaption {	
+				margin-right: 10%;
+	}
+	
+}
+
+
+/*
+ **********************
+ *PHP form styling
+ **********************
+*/
+
+.thanks {	background-color: #1C1C1C;
+			text-align: center;
+}
+
+.back, .back:hover {	margin: 0 auto;
+		border-color: white;
+		padding-top: 2em;
+		margin-top: 1.3em;
+}
+
+.thanksttl {	color: white;
+				border-right: 1px solid #000;
+				border-left: 1px solid #000;
+				
+}
+
+#canvas, .canvas { margin: 0 auto;
+					width: 450px;
+					padding: 2em 0;
+}
+
+.canvas {	text-align: center;
+			margin-top: 3em;
+}
+
+
+.spacer3 {	margin: 0 auto;
+			max-width: 30em;
+			text-align: center;
+}
+
+.spacer4 {	height: 10%;
+			width: 100%;
+			margin-top: 4em;
+			border-top: 1px solid #000;
+}
+
+.ctaner {	width: 100%;
+}
+
+.noscroll {	overflow: hidden;
+}
+
