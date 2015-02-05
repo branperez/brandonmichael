@@ -4,17 +4,14 @@
 
       }(function($, window, document) {
 
- //** make function none global**//
- 
- 
-$(function(){
-	$(".navmenu").addClass("conceal");
-	$(".toggle").click(function(){
-		//*when menu button is press activate accordion*//
-		$(".navmenu").slideToggle();
-	})
-})
+	navSize();
 
+
+	$(".toggle").click(function(){
+	//*when menu button is press activate accordion*//
+	$(".navmenu").slideToggle();
+});
+	
 	//****  		page scroll function to contact form on contact page  ***//
   $('a[href*=#form]').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -33,3 +30,14 @@ $(function(){
 	
 /****************			end document			**************/ 
 }));
+
+ $(window).resize(navSize);
+ 
+function navSize(){
+	
+	if( $('.banner').css('display') === 'block') {
+		$(".navmenu").addClass("conceal");
+	} else {
+		$(".navmenu").css('display', 'inline-block');
+	}
+};
