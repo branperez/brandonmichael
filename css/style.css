@@ -479,47 +479,56 @@ header {	width: 100%;
 	}
 	
 	.portlogo {
-		padding: 25% 0;
+		padding-top: 25%;
 	}
 	.portitem {
 		height: 100%;
 		width: 100%;
+		min-height: 672px;
 		display: block;
 		clear: both;
-		overflow: hidden;
+		overflow-y: hidden;
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
   		-o-background-size: cover;
   		background-size: cover;
   		background-repeat: no-repeat;
-  		background-position: top left;
+  		background-position: top center;
+  		-webkit-transition: .75s ease-in-out;
+		transition: .75s ease-in-out;
+		margin-top: 50px;
 	}
 	
 	.portintro {
 		background-color: #ffffff;
 		text-align: center;
 		z-index: 1;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		margin-top: -50px;
 	}
+	
 	.sisterhood {
-		/*background-image: url(../img/sisterhood.png);*/
+		background-image: url(../img/darksisterhood.png);
 		z-index: 2;
 		position: relative;
 	}
 	
 	.deadlydymes {
-		/*background-image: url(../img/deadlydymes.png);*/
+		background-image: url(../img/darkdeadlydymes.png);
 		z-index: 3;
 		position: relative;
 	}
 	
 	.lucier {
-		/*background-image: url(../img/lucier.png);*/
+		background-image: url(../img/darklucier.png);
 		z-index: 4;
 		position: relative;
 	}
 	
 	.carbodays {
-		/*background-image: url(../img/carbodays.png);*/
+		background-image: url(../img/darkcarbodays.png);
 		z-index: 5;
 		position: relative;
 	}
@@ -528,9 +537,56 @@ header {	width: 100%;
 		height: 100%;
 	}
 	
+	.sisterhood div, .deadlydymes div, .lucier div, .carbodays div {
+		height: 100%;
+		width: 100%;
+		min-height: 672px;
+		display: block;
+		clear: both;
+		overflow-y: hidden;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		background-repeat: no-repeat;
+  		background-position: top center;
+		visibility:hidden;
+  		opacity:0;
+  		transition: 1.5s ease-in-out;
+	}
+	
+	.sisterhood div {
+		background-image: url(../img/sisterhood.png);
+	}
+	
+	.deadlydymes div {
+		background-image: url(../img/deadlydymes.png);
+	}
+	
+	 .lucier div {
+	 	background-image: url(../img/lucier.png);
+	 }
+	 
+	 .carbodays div {
+	 	background-image: url(../img/carbodays.png);
+	 }
+	
+	.sisterhood.stuck div, .deadlydymes.stuck div, .lucier.stuck div, .carbodays.stuck div {
+		  visibility:visible;
+		  opacity:1;
+		  transition: 1.5s ease-in-out;
+	}
+	
 	.stuck {
 	  position: fixed;
-	  top: 50px;
+	  top: 0;
+	  -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+	}
+	
+	.sticky-wrapper {
+		margin-bottom: -50px;
 	}
 /*
  **********************

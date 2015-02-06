@@ -44,6 +44,9 @@ function navSize(){
 	}
 };
 
+
+/*************** portfolio page sticky elements *****************/
+
 jQuery(document).ready(function ($) {
  
 		var sticky = new Waypoint.Sticky({
@@ -52,15 +55,15 @@ jQuery(document).ready(function ($) {
         var sticky = new Waypoint.Sticky({
 		  element: $('.sisterhood')[0]
 		})
-		var sticky1 = new Waypoint.Sticky({
+		var sticky = new Waypoint.Sticky({
 		  element: $('.deadlydymes')[0],
 		})
-        var sticky2 = new Waypoint.Sticky({
+        var sticky = new Waypoint.Sticky({
 		  element: $('.lucier')[0],
 		})
-		var sticky2 = new Waypoint.Sticky({
+		var sticky = new Waypoint.Sticky({
 		  element: $('.carbodays')[0],
 		})
  });
     
-    (window).scroll(sticky, sticky1, sticky2, sticky3); //stick portfolio elements to top.
+    (window).scroll(sticky); //stick portfolio elements to top.
