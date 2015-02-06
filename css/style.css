@@ -271,7 +271,7 @@ header {	width: 100%;
  **********************
 */
 
-.mainpng {	padding-top: 25%;
+.mainpng {	padding-top: 30%;
 			max-width: 20em;
 			max-height: 20em;
 			border: 0;
@@ -284,7 +284,7 @@ header {	width: 100%;
 }
 
 .figcaption {	font-family: convergence;
-				padding: 25px 0;
+				padding: 4em 0;
 }
 
 .figure {	max-width: 20em;		
@@ -293,7 +293,6 @@ header {	width: 100%;
 .contentitle {	margin-bottom: .65em;
 				letter-spacing: -1px;
 				text-transform: none;
-				line-height: 1.3;
 }
 
 .aboutlnk, .contactlnk {	
@@ -465,6 +464,74 @@ header {	width: 100%;
 
 
 
+/*
+ **********************
+ *Portfolio
+ **********************
+*/
+	.portfolio {
+		height: 100%;
+	}
+	
+	.portwrapper {
+		height: 100%;
+		padding-top: 50px;
+	}
+	
+	.portlogo {
+		padding: 25% 0;
+	}
+	.portitem {
+		height: 100%;
+		width: 100%;
+		display: block;
+		clear: both;
+		overflow: hidden;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		background-repeat: no-repeat;
+  		background-position: top left;
+	}
+	
+	.portintro {
+		background-color: #ffffff;
+		text-align: center;
+		z-index: 1;
+	}
+	.sisterhood {
+		/*background-image: url(../img/sisterhood.png);*/
+		z-index: 2;
+		position: relative;
+	}
+	
+	.deadlydymes {
+		/*background-image: url(../img/deadlydymes.png);*/
+		z-index: 3;
+		position: relative;
+	}
+	
+	.lucier {
+		/*background-image: url(../img/lucier.png);*/
+		z-index: 4;
+		position: relative;
+	}
+	
+	.carbodays {
+		/*background-image: url(../img/carbodays.png);*/
+		z-index: 5;
+		position: relative;
+	}
+	
+	.sisterhood img, .deadlydymes img, .lucier img, .carbodays img {
+		height: 100%;
+	}
+	
+	.stuck {
+	  position: fixed;
+	  top: 50px;
+	}
 /*
  **********************
  *footer -- I really need to get around to this. 

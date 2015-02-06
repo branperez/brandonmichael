@@ -3,7 +3,7 @@
       yourcode(window.jQuery, window, document);
 
       }(function($, window, document) {
-
+// responsive nav doc load call
 	navSize();
 
 
@@ -28,10 +28,12 @@
     }
   });
 	
-/****************			end document			**************/ 
+/****************			end document ready			**************/ 
 }));
 
- $(window).resize(navSize);
+/************* responsive navigation function *****************/
+
+$(window).resize(navSize);
  
 function navSize(){
 	
@@ -41,3 +43,24 @@ function navSize(){
 		$(".navmenu").css('display', 'inline-block');
 	}
 };
+
+jQuery(document).ready(function ($) {
+ 
+		var sticky = new Waypoint.Sticky({
+		  element: $('.portintro')[0]
+		})
+        var sticky = new Waypoint.Sticky({
+		  element: $('.sisterhood')[0]
+		})
+		var sticky1 = new Waypoint.Sticky({
+		  element: $('.deadlydymes')[0],
+		})
+        var sticky2 = new Waypoint.Sticky({
+		  element: $('.lucier')[0],
+		})
+		var sticky2 = new Waypoint.Sticky({
+		  element: $('.carbodays')[0],
+		})
+ });
+    
+    (window).scroll(sticky, sticky1, sticky2, sticky3); //stick portfolio elements to top.
